@@ -1,0 +1,36 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12;
+}
+
+ul {
+    display: flex;
+    gap : 12px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;;
+}
+
+.title-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-text {
+    width: 30%;
+}
+
+
+/* * {
+    background-color: red;
+} */

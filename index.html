@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,30 @@
     <link type="text/css" rel="stylesheet" href="styles.css">
     <title>Landing-Page</title>
 </head>
+
 <body>
     <header>
-        <img alt="header logo">
-        <a>header link one</a>
-        <a>header link two</a>
-        <a>header link three</a>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <img alt="this is a placeholder for an image">
+        <img alt="header logo" class="header-logo">
+        <nav>
+            <ul>
+                <li><a href="https://www.google.fr">header link one</a></li>
+                <li><a href="https://www.google.fr">header link two</a></li>
+                <li><a href="https://www.google.fr">header link three</a></li>
+            </ul>
+        </nav>
     </header>
-    <div>
+    <section>
+        <div class="title-img">
+            <div class="title-text">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+                    contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <img alt="this is a placeholder for an image" class="img-title">
+        </div>
+    </section>
+    <section>
         <h2>Some random information.</h2>
         <img alt="card1">
         <p>this is some subtext under an illustration or image</p>
@@ -28,20 +41,22 @@
         <p>this is some subtext under an illustration or image</p>
         <img alt="card4">
         <p>this is some subtext under an illustration or image</p>
-    </div>
-    <div>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows ? All I know is that it looks nice."</p>
+    </section>
+    <section>
+        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+            people will actually read it. Who knows ? All I know is that it looks nice."</p>
         <p>-Thor, God of Thunder</p>
-    </div>
-    <div>
+    </section>
+    <section>
         <div>
             <p>Call to action! It's time!</p>
             <p>Sign up for our product by clicking that button right over there!</p>
             <button>Sign up</button>
         </div>
-    </div>
+    </section>
     <footer>
         <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
 </body>
+
 </html>
