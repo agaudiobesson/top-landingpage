@@ -1,9 +1,12 @@
 body {
     margin: 0px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 header {
     background-color: #1F2937;
+    height: 50px;
 }
 
 
@@ -17,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 12;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
 }
 
@@ -47,15 +50,16 @@ a {
 .top-section {
     background-color: #1F2937;
     height: 250px;
-    display: flex;
 }
 
-.title-plus-img {
+.title-container{
     display: flex;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .title-text {
@@ -88,6 +92,28 @@ a {
 .random-section {
     background-color: white;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 24px;
+    margin-bottom: 80px;
+    font-size: small;
+}
+
+.card {
+    border-style: solid;
+    color: #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
 }
 
 .quote-section {
@@ -123,13 +149,13 @@ a {
 
 .action-container {
     background-color: #3882f6;
-    width: 70%;
+    width: 60%;
     display: flex;
     align-items: center;
     color: white;
     border-radius: 8px;
     gap: 64px;
-    padding: 24px 64px;
+    padding: 20px 60px;
     flex: 1 0 1;
 }
 
